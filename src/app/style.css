@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(to right, #1f124c,#6f1c80 100%);
+    background-size: 200% 200%;
+    animation: color 5s ease reverse infinite;
+  }
+  
+
+body{
+    margin: 0;
+}
+
+@keyframes color {
+    0%{
+        background-size: 100% 200%;
+    }
+    50%{
+        background-size: 200% 100%;
+    }
+    100%{
+        background-size: 100% 200%;
+    }
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 43px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: white;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h2{
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: rgb(56, 2, 87);
+}
+
+main h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:  60px;
+
+    color: white;
+
+    margin-left: 5;
+
+    text-shadow: 1px 6px 12px rgba(0, 0, 0, 0.199);
+    
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    animation: animHello 5s ease-in-out infinite;
+
+    
+}
+
+@keyframes animHello {
+    0%{
+        width: 0em;
+    }
+    50%{
+        width: 6em;
+    }
+    100%{
+        width: 0em;
+    }
+    
+}
