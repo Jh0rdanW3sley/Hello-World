@@ -21,11 +21,13 @@ body{
     }
 }
 
-main{
+
+
+.hello-world{
     width: 100vw;
     height: 100vh;
 }
-main{
+.hello-world{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +54,7 @@ main{
     color: rgb(56, 2, 87);
 }
 
-main h1{
+.hello-world h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size:  60px;
